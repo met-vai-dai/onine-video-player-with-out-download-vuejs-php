@@ -1,0 +1,12 @@
+// Define variable defaults
+$body-bg: #fff;
+$body-color: #000;
+$custom-control-indicator-size: 50;
+// Then import Bootstrap an BootstrapVue SCSS files (order is important)
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+//@import 'node_modules/bootstrap-vue/src/index.scss';
+@import '~bootstrap';
+//@import '~bootstrap-vue';
+@import '~bootstrap/scss/bootstrap.scss';
+//@import '~bootstrap-vue/src/index';
+//@import "../assets/scss/vendors/bootstrap-vue/index";

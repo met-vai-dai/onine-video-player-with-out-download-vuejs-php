@@ -1,0 +1,25 @@
+@import '../Font/Font_Router.css';
+*{
+    font-family: Sh;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: #106eea;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #082384;
+}
+
+:root {
+    scroll-behavior: smooth;
+}
